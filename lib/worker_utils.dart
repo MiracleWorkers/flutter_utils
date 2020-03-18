@@ -4,5 +4,5 @@ import "dart:ui";
 import 'utils/convertColor.dart';
 
 class MWorker {
-  static Color changeHex(String colorHex) => MColor.hex(colorHex);
+  static Color hex(String colorHex) => MColor.hex(colorHex);
 }
